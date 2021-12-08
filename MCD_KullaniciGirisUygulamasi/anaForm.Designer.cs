@@ -37,9 +37,9 @@ namespace MCD_KullaniciGirisUygulamasi
             this.lblSelamla = new System.Windows.Forms.Label();
             this.txtIsim = new System.Windows.Forms.TextBox();
             this.txtSoyisim = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtKullaniciAdi = new System.Windows.Forms.TextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.txtAciklama = new System.Windows.Forms.TextBox();
             this.btnGuncelle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -115,26 +115,26 @@ namespace MCD_KullaniciGirisUygulamasi
             this.txtSoyisim.Size = new System.Drawing.Size(170, 20);
             this.txtSoyisim.TabIndex = 6;
             // 
-            // textBox3
+            // txtKullaniciAdi
             // 
-            this.textBox3.Location = new System.Drawing.Point(338, 136);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(170, 20);
-            this.textBox3.TabIndex = 6;
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(338, 136);
+            this.txtKullaniciAdi.Name = "txtKullaniciAdi";
+            this.txtKullaniciAdi.Size = new System.Drawing.Size(170, 20);
+            this.txtKullaniciAdi.TabIndex = 6;
             // 
-            // textBox4
+            // txtSifre
             // 
-            this.textBox4.Location = new System.Drawing.Point(338, 162);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(170, 20);
-            this.textBox4.TabIndex = 6;
+            this.txtSifre.Location = new System.Drawing.Point(338, 162);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(170, 20);
+            this.txtSifre.TabIndex = 6;
             // 
-            // textBox6
+            // txtAciklama
             // 
-            this.textBox6.Location = new System.Drawing.Point(338, 188);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(170, 20);
-            this.textBox6.TabIndex = 6;
+            this.txtAciklama.Location = new System.Drawing.Point(338, 188);
+            this.txtAciklama.Name = "txtAciklama";
+            this.txtAciklama.Size = new System.Drawing.Size(170, 20);
+            this.txtAciklama.TabIndex = 6;
             // 
             // btnGuncelle
             // 
@@ -145,6 +145,7 @@ namespace MCD_KullaniciGirisUygulamasi
             this.btnGuncelle.TabIndex = 7;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // anaForm
             // 
@@ -152,9 +153,9 @@ namespace MCD_KullaniciGirisUygulamasi
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnGuncelle);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtAciklama);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.txtKullaniciAdi);
             this.Controls.Add(this.txtSoyisim);
             this.Controls.Add(this.txtIsim);
             this.Controls.Add(this.lblSelamla);
@@ -181,9 +182,9 @@ namespace MCD_KullaniciGirisUygulamasi
         private System.Windows.Forms.Label lblSelamla;
         private System.Windows.Forms.TextBox txtIsim;
         private System.Windows.Forms.TextBox txtSoyisim;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtKullaniciAdi;
+        private System.Windows.Forms.TextBox txtSifre;
+        private System.Windows.Forms.TextBox txtAciklama;
         private System.Windows.Forms.Button btnGuncelle;
     }
 }
