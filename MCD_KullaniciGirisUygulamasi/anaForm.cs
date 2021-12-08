@@ -12,9 +12,16 @@ namespace MCD_KullaniciGirisUygulamasi
 {
     public partial class anaForm : Form
     {
-        public anaForm()
+        public anaForm(kullanici bulunanKullanici)
         {
             InitializeComponent();
+
+            
+        }
+
+        private void anaForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

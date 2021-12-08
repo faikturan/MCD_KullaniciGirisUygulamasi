@@ -35,8 +35,8 @@ namespace MCD_KullaniciGirisUygulamasi
             this.lblSifre = new System.Windows.Forms.Label();
             this.lblAciklama = new System.Windows.Forms.Label();
             this.lblSelamla = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtIsim = new System.Windows.Forms.TextBox();
+            this.txtSoyisim = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -46,45 +46,50 @@ namespace MCD_KullaniciGirisUygulamasi
             // lblisim
             // 
             this.lblisim.AutoSize = true;
-            this.lblisim.Location = new System.Drawing.Point(259, 98);
+            this.lblisim.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblisim.Location = new System.Drawing.Point(243, 94);
             this.lblisim.Name = "lblisim";
-            this.lblisim.Size = new System.Drawing.Size(28, 13);
+            this.lblisim.Size = new System.Drawing.Size(35, 13);
             this.lblisim.TabIndex = 0;
             this.lblisim.Text = "İsim:";
             // 
             // lblsoyisim
             // 
             this.lblsoyisim.AutoSize = true;
-            this.lblsoyisim.Location = new System.Drawing.Point(259, 121);
+            this.lblsoyisim.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblsoyisim.Location = new System.Drawing.Point(243, 117);
             this.lblsoyisim.Name = "lblsoyisim";
-            this.lblsoyisim.Size = new System.Drawing.Size(45, 13);
+            this.lblsoyisim.Size = new System.Drawing.Size(54, 13);
             this.lblsoyisim.TabIndex = 1;
             this.lblsoyisim.Text = "Soyisim:";
             // 
             // lblKullaniciAdi
             // 
             this.lblKullaniciAdi.AutoSize = true;
-            this.lblKullaniciAdi.Location = new System.Drawing.Point(259, 143);
+            this.lblKullaniciAdi.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKullaniciAdi.Location = new System.Drawing.Point(243, 139);
             this.lblKullaniciAdi.Name = "lblKullaniciAdi";
-            this.lblKullaniciAdi.Size = new System.Drawing.Size(67, 13);
+            this.lblKullaniciAdi.Size = new System.Drawing.Size(77, 13);
             this.lblKullaniciAdi.TabIndex = 2;
             this.lblKullaniciAdi.Text = "Kullanici Adı:";
             // 
             // lblSifre
             // 
             this.lblSifre.AutoSize = true;
-            this.lblSifre.Location = new System.Drawing.Point(262, 173);
+            this.lblSifre.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSifre.Location = new System.Drawing.Point(246, 165);
             this.lblSifre.Name = "lblSifre";
-            this.lblSifre.Size = new System.Drawing.Size(31, 13);
+            this.lblSifre.Size = new System.Drawing.Size(36, 13);
             this.lblSifre.TabIndex = 3;
             this.lblSifre.Text = "Şifre:";
             // 
             // lblAciklama
             // 
             this.lblAciklama.AutoSize = true;
-            this.lblAciklama.Location = new System.Drawing.Point(262, 195);
+            this.lblAciklama.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAciklama.Location = new System.Drawing.Point(246, 191);
             this.lblAciklama.Name = "lblAciklama";
-            this.lblAciklama.Size = new System.Drawing.Size(53, 13);
+            this.lblAciklama.Size = new System.Drawing.Size(62, 13);
             this.lblAciklama.TabIndex = 4;
             this.lblAciklama.Text = "Açıklama:";
             // 
@@ -96,19 +101,19 @@ namespace MCD_KullaniciGirisUygulamasi
             this.lblSelamla.Size = new System.Drawing.Size(0, 13);
             this.lblSelamla.TabIndex = 5;
             // 
-            // textBox1
+            // txtIsim
             // 
-            this.textBox1.Location = new System.Drawing.Point(338, 87);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 20);
-            this.textBox1.TabIndex = 6;
+            this.txtIsim.Location = new System.Drawing.Point(338, 87);
+            this.txtIsim.Name = "txtIsim";
+            this.txtIsim.Size = new System.Drawing.Size(170, 20);
+            this.txtIsim.TabIndex = 6;
             // 
-            // textBox2
+            // txtSoyisim
             // 
-            this.textBox2.Location = new System.Drawing.Point(338, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(170, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtSoyisim.Location = new System.Drawing.Point(338, 110);
+            this.txtSoyisim.Name = "txtSoyisim";
+            this.txtSoyisim.Size = new System.Drawing.Size(170, 20);
+            this.txtSoyisim.TabIndex = 6;
             // 
             // textBox3
             // 
@@ -133,6 +138,7 @@ namespace MCD_KullaniciGirisUygulamasi
             // 
             // btnGuncelle
             // 
+            this.btnGuncelle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGuncelle.Location = new System.Drawing.Point(370, 241);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(75, 23);
@@ -149,8 +155,8 @@ namespace MCD_KullaniciGirisUygulamasi
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSoyisim);
+            this.Controls.Add(this.txtIsim);
             this.Controls.Add(this.lblSelamla);
             this.Controls.Add(this.lblAciklama);
             this.Controls.Add(this.lblSifre);
@@ -158,7 +164,8 @@ namespace MCD_KullaniciGirisUygulamasi
             this.Controls.Add(this.lblsoyisim);
             this.Controls.Add(this.lblisim);
             this.Name = "anaForm";
-            this.Text = "anaForm";
+            this.Text = "AktifKullanıcı Bilgisi";
+            this.Load += new System.EventHandler(this.anaForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,8 +179,8 @@ namespace MCD_KullaniciGirisUygulamasi
         private System.Windows.Forms.Label lblSifre;
         private System.Windows.Forms.Label lblAciklama;
         private System.Windows.Forms.Label lblSelamla;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtIsim;
+        private System.Windows.Forms.TextBox txtSoyisim;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox6;
